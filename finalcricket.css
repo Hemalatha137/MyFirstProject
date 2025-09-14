@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('https://media.istockphoto.com/id/1257341789/photo/leather-cricket-ball-resting-on-a-cricket-bat-placed-on-green-grass-cricket-ground-pitch.jpg?s=612x612&w=0&k=20&c=HBOkStDO-mtC4Zlpo30REGBD37yoZoUESVxj0oCamOk=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.latest-news {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.latest-news h2 {
+    margin-top: 0;
+}
+
+.latest-news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-news ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.latest-news ul li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
